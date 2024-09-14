@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>editable resume</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+   
+      <div id="contMain" class="container">
+        <h2 class="heading">Editable Resume</h2>
+        <form  id="form_resume" action="">
+        <div class="items">
+            <h3 class="Personal_">Personal Information</h3>
+            <fieldset  class="fset">
+                
+            <label class="label" for="username">Enter Username:</label></br>
+            <input id="username" class="center" type="text" name="username" placeholder="Enter username" required></br>
+            <label class="label" for="name">Enter Your Name:</label></br>
+            <input id="name" class="center" type="text" name="name" placeholder="Enter name" required></br>
+            <label for="email" class="label hide">Enter Your Email:</label></br>   
+            <input id="email" type="email" class="center" name="email" placeholder="Enter email" required></br>
+            <label for="number" class="label">Enter Your Number:</label></br>
+            <input id="number" type="number" class="center" name="number" placeholder="Enter mobile number" required></br>
+            <label class="label" for="file">Upload Your Picture:</label></br>
+            <input id = "img" type="file" class="label" name="proimage"  accept="Image/*" required>
+        </fieldset>  
+        </div>
+       
+        <!-- .....02 -->
+        <div class="items item_1">
+            <h3 class="Personal_">Education:</h3>
+            <fieldset  class="fset">
+            <label class="label" for="Secondry">Enter Your Education:</label></br>
+            <input id="Secondry" class="center" type="text" name="Secondry" placeholder="Enter your secondry education" required></br>
+            <label for="Betchler" class="label">Enter Your Betchler:</label></br>   
+            <input id="Betchler" type="text" class="center" name="Betchler" placeholder="Enter your betchler degree" required></br>
+            <label for="Master" class="label">Enter Your Master:</label></br>
+            <input id="Master" type="text" class="center" name="Master" placeholder="Enter your master degree" required></br>
+            <!-- <label class="label hide" for="name">Upload Your Image:</label></br>
+            <input type="file" class="label hide"> -->
+        </fieldset>  
+        </div>
+
+        <div class="items item_1">
+            <h3 class="Personal_">Skills:</h3>
+            <fieldset  class="fset">
+            <label class="label" for="skill_1">Enter Skill 01:</label></br>
+            <input id="skill_1" class="center" type="text" name="skill" placeholder="Enter skill One" required></br>
+            <label for="skill_2" class="label">Enter Skill 02:</label></br>   
+            <input id="skill_2" type="text" class="center" name="skill" placeholder="Enter skill two" required></br>
+            <label for="skill_3" class="label">Enter Skill 03:</label></br>
+            <input id="skill_3" type="text" class="center" name="skill" placeholder="Enter skill three" required></br>
+            <!-- <label class="label hide" for="name">Upload Your Image:</label></br>
+            <input type="file" class="label hide"> -->
+        </fieldset>  
+        </div>
+
+        <div class="items item_1">
+            <h3 id="hide" class="Personal_">Experience:</h3>
+            <fieldset id="fset">
+            <label class="label" for="experience">Enter Experience:</label></br>
+            <input id="experience" class="center" type="text" name="experience" placeholder="Enter experience time" required></br>
+            <label class="label" for="c_name">Enter Company Name:</label></br>   
+            <input id="c_name" type="text" class="center" name="co_name" placeholder="Enter company name" required></br>
+            <label for="position" class="label">Enter Position at Company:</label></br>
+            <input id="position" type="text" class="center" name="position" placeholder="Enter your position" required></br>
+            <!-- <label class="label hide" for="name">Upload Your Image:</label></br>
+            <input type="file" class="label hide"> -->
+        </fieldset>  
+        </div>
+        <button id="btns" type="submit" class="btn_b">Generate Resume</button>
+    </form> 
+      </div></br>
+      <!-- Generated resume -->
+      <div id = "my_resume" contenteditable="true">
+        
+      </div>
+      <div id="btn_div" class="btn_div">
+      <button id="edit" class="btn_edit">Edit</button>
+      <button style="background-color: rgb(184, 223, 184); cursor: default;"  id="share" class="btn_edit">
+        <!-- <a style="color: white; text-decoration: none;" href="#" id="sharelink" target="_blank">Share</a> -->
+         Share
+    </button>
+      <button id="download" class="btn_edit">Dowload</button>
+    </div>
+    <script src="index.js"></script>
+     
+</body>
+</html>
+

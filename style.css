@@ -1,0 +1,244 @@
+
+
+.heading{
+    /* display: flex; */
+    /* justify-content: center; */
+    background-color: green;
+    width: 300px;
+    line-height: 40px;
+    color: white;
+    text-align: center;
+    
+    /* display: inline-block; */
+    margin: 10px auto 0px auto;
+
+}
+
+.container{
+    width: 70%;
+    background-color: rgb(243, 243, 243);
+    /* height: 620px;  */
+    /* border: 2px solid green;  */
+    margin: 40px auto 5px auto ;
+    padding: 5px;
+} 
+
+ .items{
+    /* display: inline-block; */
+    /* border: 1px solid rebeccapurple; */
+    width: 600px;
+    /* height: 400px; */
+    margin: 10px auto 10px auto; 
+    box-sizing: border-box; 
+    border-radius: 3 0px;
+    /* padding: 0px 0px 0px 0px; */
+}
+
+.Personal_{
+    font-size: 20px;
+    background-color: green;
+    color: white;
+    /* display: inline-block; */
+    margin: 0px auto 10px auto;
+    width: 250px;
+    text-align: center;
+    line-height: 35px;
+    /* padding-left: 5px; */
+}
+
+
+
+  .center{
+    font-size: 15px;
+    display: inline-block;
+    margin: 5px auto 5px 0px;
+    width: 500px;
+    height: 30px;
+    padding-left: 5px;
+} 
+
+.label{
+    display: inline-block;
+   margin: 15px 0px 5px 0px ;
+   
+}
+
+
+
+.btn_b{
+    display: block;
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(43, 139, 40);
+    border: none;
+    margin: 10px auto 20px auto;
+    cursor: pointer;
+}
+
+.btn_b:hover{
+    background-color: rgb(87, 190, 84);
+} 
+
+@media only screen and (max-width: 1000px){
+    .items{
+        /* display: inline-block; */
+        /* border: 1px solid rebeccapurple; */
+        width: 450px;
+        /* height: 400px; */
+        margin: 10px auto 10px auto; 
+        /* box-sizing: border-box;  */
+        border-radius: 3 0px;
+        /* padding: 0px 0px 0px 0px; */
+    }
+
+    .center{
+        font-size: 15px;
+        display: inline-block;
+        margin: 5px auto 5px 0px;
+        width: 400px;
+        height: 30px;
+        padding-left: 5px;
+    } 
+
+
+}
+
+
+@media only screen and (max-width: 700px){
+ 
+    .container{
+        width: 90%;
+        /* box-shadow: ; */
+        background-color: white;
+        /* height: 620px;  */
+        /* border: 2px solid green;  */
+        margin: 40px auto 20px auto ;
+        padding: 5px;
+    } 
+    
+ 
+    .items{
+        /* display: inline-block; */
+        /* border: 1px solid rebeccapurple; */
+        width: 450px;
+        /* height: 400px; */
+        margin: 10px auto 10px auto; 
+        /* box-sizing: border-box;  */
+        border-radius: 3 0px;
+        /* padding: 0px 0px 0px 0px; */
+    }
+
+    .center{
+        font-size: 15px;
+        display: inline-block;
+        margin: 5px auto 5px 0px;
+        width: 380px;
+        height: 30px;
+        padding-left: 5px;
+    } 
+
+
+}
+
+
+@media only screen and (max-width: 550px){
+      
+    .container{
+        width: 100%;
+        /* background-color: rgb(243, 243, 243); */
+        /* height: 620px;  */
+        /* border: 2px solid green;  */
+        margin: 40px auto 20px auto ;
+        /* padding: 5px; */
+    } 
+    
+ 
+    .items{
+        /* display: inline-block; */
+        /* border: 1px solid rebeccapurple; */
+        width: 350px;
+        /* height: 400px; */
+        margin: 10px auto 10px auto; 
+        /* box-sizing: border-box;  */
+        border-radius: 3 0px;
+        /* padding: 0px 0px 0px 0px; */
+    }
+
+    .center{
+        font-size: 15px;
+        display: inline-block;
+        margin: 5px auto 5px 0px;
+        width: 250px;
+        height: 25px;
+        padding-left: 15px;
+    } 
+
+
+}
+
+@media only screen and (max-width: 380px){
+     
+    .container{
+        width: 100%;
+        /* background-color: rgb(243, 243, 243); */
+        /* height: 620px;  */
+        /* border: 2px solid green;  */
+        margin: 40px auto 20px auto ;
+        padding: 5px;
+    } 
+    
+ 
+    .items{
+        /* display: inline-block; */
+        /* border: 1px solid rebeccapurple; */
+        width: 300px;
+        /* height: 400px; */
+        margin: 10px auto 10px auto; 
+        /* box-sizing: border-box;  */
+        border-radius: 3 0px;
+        /* padding: 0px 0px 0px 0px; */
+    }
+
+    .center{
+        font-size: 13px;
+        display: inline-block;
+        margin: 5px auto 5px 0px;
+        width: 230px;
+        height: 23px;
+        padding-left: 5px;
+    } 
+
+
+}
+
+#my_resume{
+    width: 100%;
+    outline: none;
+   /* border-top: 2px solid green; */
+   margin : 0px auto 10px auto;
+}
+
+.btn_edit{
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+    width: 75px;
+    height: 30px;
+    background-color: rgb(50, 150, 47);
+    border: none;
+    margin: 5px auto 5px 4px;
+    cursor: pointer;
+    /* display: none;     */
+}
+
+.btn_div{
+    display: none;
+    width: 250px; 
+    /* border: 1px solid red;  */
+    margin: 5px auto 10px auto
+}
+
